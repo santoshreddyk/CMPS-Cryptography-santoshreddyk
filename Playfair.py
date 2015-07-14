@@ -1,3 +1,16 @@
+
+##############################################################
+"""
+Name:Santosh reddy kandukuri
+class:CMPS 5363 Cryptography
+Date: 13 July 2015
+program 1 - Playfair Cipher
+
+"""
+
+############################################################## 
+
+
 import pprint
 import re
 
@@ -237,26 +250,37 @@ class PlayFair:
 
 ###########################################################################
 
-print("Name:Santosh reddy kandukuri")
-print("class:CMPS 5363 Cryptography")
-print("Date: 13 July 2015")
-print("program 1 - Playfair Cipher")
-print("--------------------------------------------")
+print("Written By:Santosh reddy kandukuri")
+print("1. Encipher")
+print("2. Decipher")
+print("3. Quit")
+
+print("************************************************")
 
 ##############################################################
 
+print("Playfair Encryption Tool (P.E.T)")
 print("Written By: Santosh Reddy Kandukuri")
 
-##############################################################
+print("***************************************************")
 
 print("Enter key :")
 key = input()
 
+print("***************************************************")
+
 
 #############################################################
 
+print("Playfair Encryption Tool (P.E.T)")
+print("Written By: Santosh Reddy Kandukuri")
+
+print("****************************************************")
+
 print("Enter message :")
 message = input()
+
+print("****************************************************")
 
 ##############################################################
 
@@ -286,7 +310,17 @@ while (flag == 1):
             encryptMsg = ''.join(myCipher.getCodedDigraph(list))
             cipher = cipher + encryptMsg
    
+        
+        print("Playfair Encryption Tool (P.E.T)")
+        print("Written By:Santosh Reddy Kandukuri")
+        
+        print("**********************************************")
+        
+        print("Your encrypted message is: ")
+        
         print(cipher)
+        
+        print("**********************************************")
 
     if(x == '2'):
         flag = 0
@@ -300,15 +334,21 @@ while (flag == 1):
             decryptMsg = ''.join(myCipher.getDecryptDigraph(list))
             decipher = decipher + decryptMsg
    
+        
+        
+        print("Playfair Encryption Tool (P.E.T)")
+        print("Written By:Santosh Reddy Kandukuri")
+        print("***********************************************")
+        
+        print("Your decrypted message is:")  
+        
         print(decipher)
+        
+        print("***********************************************")
         
     if(x == '3'):
         flag = 0
-        print("Exit")
+        print("Quit")
     
     
-        
-        
-        
-        
         
